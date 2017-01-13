@@ -1,0 +1,33 @@
+.services{
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  height: 500px;
+  .custom-title{
+    font-size: 1.75em;
+    margin: 0 auto;
+    color: #6D7073;
+    text-align: center;
+  }
+  .custom-content{
+    margin-top: 15px;
+    line-height: 1.5em;
+    font-family:CaviarDreamsitalicwebfont;
+  }
+  .custom-service{
+    border-bottom: dotted;
+    border-width: 5px;
+    border-color: #D40F18;
+    padding-bottom: 10px;
+  }
+  @media (max-width: 992px) {
+    .services{
+      height: auto;
+    }
+  }
+}
